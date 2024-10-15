@@ -21,7 +21,7 @@ header {
     gap: 28px;
 }
 
-.nav-item :hover {
+.nav-item:hover {
     cursor: pointer;
     background-color: black;
     color: rgba(0, 247, 255, 0);
