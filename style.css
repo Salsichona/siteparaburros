@@ -10,7 +10,7 @@ header {
 
 }
 
-ul {
+.nav-lista {
     display: flex;
     list-style: none;
     color: rgb(255, 255, 255);
@@ -19,4 +19,10 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 28px;
+}
+
+.nav-item :hover {
+    cursor: pointer;
+    background-color: black;
+    color: aqua;
 }
